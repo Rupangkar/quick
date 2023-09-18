@@ -1,0 +1,110 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ p{
+    font-size: 18px;
+    color: #3b506c;
+ }
+
+header{
+    padding: 24px 0px 50px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 13px 14px -10px;
+}
+ 
+.container{
+    width: 1200px;
+    margin:auto;
+}
+
+.logo{
+    width: 600px;
+    float: left;
+}
+
+.logo img{}
+
+nav{
+    width: 50%;
+    float: left;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0px 15px 14px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #3b506c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner */
+.banner{
+    text-align: center;
+    margin: 120px 0;
+}
+
+.banner h1{
+    font-size: 50px;
+    color: #3b506c;
+}
+
+.banner h1 span{
+    color: #0c66ff;
+}
+
+.banner p{
+    font-size: 18px;
+    color: #3b506c;
+}
+
+.banner img{
+    width: 50%;
+    margin:50px 0 0 0;
+
+}
+/* completed project */
+
+.projects{
+    width: 50%;
+    float:left;
+
+}
+
+.projects-left{
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+.projects-left h2{
+    font-size: 55px;
+    text-align: right;
+    padding: 0 20px 0 0;
+    color: red;
+}
+
+.projects-left p{}
+
+.projects-right{
+    padding: 0 0 0 20px;
+}
+
+.projects-right h2{
+    font-size: 55px;
+    color: #3b506c;
+}
+     
+
+ 
