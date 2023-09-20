@@ -1,64 +1,133 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Quick</title>
-    
-
+    <title>quick</title>
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <header>
-
         <div class="container">
             <div class="logo">
-              <img src="images/dark.svg" alt="">
+                <img src="images/dark.svg" alt="">
             </div>
-      
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-         
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </nav>
         </div>
-
     </header>
+
     <!-- banner section start -->
 
-    <section>
+    <section id="home">
         <div class="banner">
-           <h1>It,s Time To Amplify your <br><span>online Business</span> </h1> 
+            <h1>It,s Time To Amplify your <br><span>online Business</span> </h1> 
         
-           <p>Lorem ipsum dolor sit amet consectetur adipicing</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipicing</p></h1>
 
-           <img src="images/illustration-1.svg" alt="">
+            <img src="images/illustration-1.svg" alt="">
         </div>
     </section>
-
     <!-- completed project -->
 
-    <section>
+    <section id="about">
         <div class="projects">
-            <div class="projects-left">
+            <div class="projects-left"> 
                 <h2>3k</h2>
                 <p>Dolor site, amet consectetur adipisicing elit. Ea eaque obcaecati
-                consequuntur modi, <br>
-                    blanditiis doloremque?</p>
+                    consequuntur modi, <br>
+                        blanditiis doloremque?</p>
             </div>
         </div>
         <div class="projects">
-            <div class="pr cojects-right">
+            <div class="projects-right">
+
                 <h2>Successfully <br>completed project <br>and idea</h2>
+             
             </div>
         </div>
     </section>
-     
+
+    <!-- blogs section start -->
+
+    <section id="blogs" class="blog-parent container">
+        <div class="blog color1">
+            <div class="blog-item">
+                <img src="images/illustration-5.svg" alt="scateboter">
+                <h3>Unless your creativity</h3>
+                <p>Lorem ipsum dolor sit amet consectetur    adipisicing   elit. Vel, quo! Dignissimos 
+                 est corrupti enim sit eaque ex dicta repudiandae error dolorem amet, sed autem
+                 officiis hic nobis distinctio. Similique, quo?</p>
+            </div> 
+        </div>
+
+        <div class="blog color2">
+
+            <div class="blog-item">
+                <img src="images/illustration-6.svg" alt="scateboter">
+                <h3>Get More Result</h3>
+                <p>Lorem ipsum dolor sit amet consectetur    adipisicing   elit. Vel, quo! Dignissimos 
+                 est corrupti enim sit eaque ex dicta repudiandae error dolorem amet, sed autem
+                 officiis hic nobis distinctio. Similique, quo?</p>
+            </div>
+        </div> 
+
+        <div class="blog color3">
+
+            <div class="blog-item">
+                <img src="images/illustration-7.svg" alt="scateboter">
+                <h3>Increase you Audience</h3>
+                <p>Lorem ipsum dolor sit amet consectetur    adipisicing   elit. Vel, quo! Dignissimos 
+                 est corrupti enim sit eaque ex dicta repudiandae error dolorem amet, sed autem
+                 officiis hic nobis distinctio. Similique, quo?</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Address</h4>
+
+                    <li>Dhaka</li>
+                    <li>Chandpur</li>
+                    <li>Cumilla</li>
+                    <li>Dinajpur</li>
+                </div>
+                <div id="contact" class="col">
+                    <h4>Contact</h4>
+                    <li>Phone</li>
+                    <li>Teliphobne</li>
+                    <li>Email</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                </div>
+                <div class="col">
+                    <h4>Terms ans condition</h4>
+                    <li>Rules 1</li>
+                    <li>Privecy</li>
+                    <li>Ploicy</li>
+                </div>
+                <div class="col">
+                    <h4>Link to connect</h4>
+                    <li>Website</li>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                    <li>Address</li>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="JS/app.js"></script>
 </body>
 </html>

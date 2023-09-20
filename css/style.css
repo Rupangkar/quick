@@ -1,26 +1,38 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
- }
- p{
+}
+section{
+    overflow: hidden;
+}
+
+p{
     font-size: 18px;
     color: #3b506c;
- }
+}
+  
 
 header{
-    padding: 24px 0px 50px;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 13px 14px -10px;
+    padding: 15px 0px 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 14px 15px;
+    position:fixed;
+    top:0;
+    right: 0;
+    left: 0;
 }
- 
+
 .container{
     width: 1200px;
-    margin:auto;
+    margin: auto;
 }
 
 .logo{
-    width: 600px;
+    width: 50%;
     float: left;
 }
 
@@ -51,9 +63,10 @@ nav ul li a{
 }
 
 /* banner */
+
 .banner{
     text-align: center;
-    margin: 120px 0;
+    margin: 150px 0px 50px 0;
 }
 
 .banner h1{
@@ -72,15 +85,14 @@ nav ul li a{
 
 .banner img{
     width: 50%;
-    margin:50px 0 0 0;
-
+    margin: 50px 0 0 0;
 }
+
 /* completed project */
 
 .projects{
     width: 50%;
-    float:left;
-
+    float: left;
 }
 
 .projects-left{
@@ -105,6 +117,96 @@ nav ul li a{
     font-size: 55px;
     color: #3b506c;
 }
-     
 
+/* blogs section start */
+
+.blog-parent{
+    display: flex;
+    margin: 70px auto;
+    padding:20px 0 ;
+}
+
+.blog{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 0px 8px 0px 8px;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.blog-item{}
+
+.blog-item img{
+    width: 100%;
+    height: 220px;
+}
+
+.blog-item h3{
+    color:#3b506c;
+}
+
+.blog-item p{}
+
+.color1{
+    background-color: rgba(255, 0, 0, 0.093);
+}
+
+.color2{
+    background-color: rgba(0, 128, 0, 0.109)
+}
+
+.color3{
+    background-color:rgba(255, 255, 0, 0.116)
+}
+
+.blog:hover{
  
+   box-shadow:rgba(50, 48, 48, 0.16) 0px 10px 10px, rgba(40, 38, 38, 0.23) 0px 10px 10px;
+   
+}
+
+/* footer */
+
+footer{
+    background-color: #a6adb775;
+    padding: 45px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{}
+
+.col h4{
+    color: #3b506c;
+    font-size: 20px;
+}
+
+.col li{list-style: none;margin: 20px 0;color: #3b506c;}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+
+
