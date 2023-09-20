@@ -147,11 +147,11 @@ nav ul li a{
 .blog-item p{}
 
 .color1{
-    background-color: rgba(255, 0, 0, 0.093);
+    background-color: rgba(255, 0, 0, 0.235);
 }
 
 .color2{
-    background-color: rgba(0, 128, 0, 0.109)
+    background-color: rgba(75, 146, 75, 0.539)
 }
 
 .color3{
@@ -161,7 +161,7 @@ nav ul li a{
 .blog:hover{
  
    box-shadow:rgba(50, 48, 48, 0.16) 0px 10px 10px, rgba(40, 38, 38, 0.23) 0px 10px 10px;
-   
+   background-color:rgba(69, 87, 135, 0.346)
 }
 
 /* footer */
@@ -183,9 +183,12 @@ footer{
     font-size: 20px;
 }
 
-.col li{list-style: none;margin: 20px 0;color: #3b506c;}
-
-
+.col li{
+    list-style: none;
+    margin: 15px 0;
+    color: #3b506c;
+    font-size: 18px;
+}
 
 #myBtn {
     display: none;
@@ -196,11 +199,12 @@ footer{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color:green;
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius:100%;
+    line-height: 28px;
   }
   
   #myBtn:hover {
