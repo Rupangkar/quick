@@ -254,14 +254,14 @@ footer{
 }
 
 .dip p{
-    font-size: 30px;
+    /* font-size: 30px; */
     text-align: center;
     color: white;
 }
 
 .dip button{
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: auto;
     display: block;
