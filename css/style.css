@@ -25,21 +25,20 @@ header{
     right: 0;
     left: 0;
 }
-
 .container{
     width: 1200px;
     margin: auto;
 }
 
 .logo{
-    width: 50%;
+    width: 600px;
     float: left;
 }
 
 .logo img{}
 
 nav{
-    width: 50%;
+    width: 600px;
     float: left;
 }
 
@@ -70,7 +69,7 @@ nav ul li a{
 }
 
 .banner h1{
-    font-size: 50px;
+    font-size: 55px;
     color: #3b506c;
 }
 
@@ -164,11 +163,89 @@ nav ul li a{
    background-color:rgba(69, 87, 135, 0.346)
 }
 
+rew{
+    float:left;
+    width: 45%;
+    margin: 70px auto;
+
+    
+}
+
+/* Extra section */
+.extra-section{
+    background-color: #100f0f;
+}
+
+.dip-parent{
+    display: flex;
+    margin: 100px auto;
+    padding: 20px;
+    
+}
+
+.dip{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    float: right;
+    width: 2000px;
+    height: 250px;
+    /* margin: 20px; */
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.dip-item{}
+
+.dip h3{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.dip p{
+
+    text-align: center;
+    color: white;
+}
+
+.dip button{
+
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    /* width: 100%; */
+    padding: 10px 20px;
+    border: 0;
+    background-color: #ff0000b3;
+    color: white;
+}
+
+
+  /*  Extra section */
+
+.color4{
+    background-color: rgba(0, 255, 255, 0.589);
+}
+
+.color5{
+    background-color: rgba(153, 205, 50, 0.594);
+}
+
+.color6{
+    background-color: rgba(115, 0, 255, 0.562);
+}
+
+.dip:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(92, 65, 65, 0.23) 0px 10px 10px;
+}
+
 /* footer */
 
 footer{
-    background-color: #a6adb775;
+    background-color: #5d6168bd;
     padding: 45px 0;
+    
 }
 
 .row{
@@ -212,37 +289,124 @@ footer{
     background-color: #555;
   }
 
-  /*  Extra section */
 
-.rew{
-    float:left;
-    width: 45%;
-    margin: 70px auto;
 
-    
+/* Extra small devices (phones,600px and down) */
+
+@media only screen and (max-width:600px) {
+
+.container{
+    width: 90%;
 }
+
+.logo{
+    width: 100%;
+    text-align: center;
+   
+} 
+
+nav{
+    width: 100%;
+} 
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    padding: 0px 7px 0px;
+} 
+
+
+/* banner */
+
+.banner h1{
+    font-size: 25px;
+}
+ 
+.banner img{
+    width: 80%;
+    margin: 50px 0 0 0px;
+}
+
+
+
+/* completed project */
+
+.projects{
+    width: 100%;
+   
+}
+
+.projects-left{
+    text-align: center;
+    padding: 0 0px 0 0;
+   
+}
+
+.projects-left h2{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 0 0 0;
+ 
+}
+
+.projects-left p{
+    padding: 0 20px ;
+}
+
+
+.projects-right h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+/* blogs section start */
+
+.blog-parent{
+    display: block;
+    margin: 40px auto;
+    padding: 0px 0 ;
+}
+
+.blog{
+    margin: 20px 0px 0px 8px;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.blog-item{}
+
+.blog-item img{
+    width: 100%;
+    height: 220px;
+}
+.blog-item p{
+    text-align: justify;
+}
+
+
 
 /* Extra section */
 .extra-section{
-    background-color: #000;
+    display: none;
 }
-
 .dip-parent{
-    display: flex;
-    margin: 100px auto;
-    padding: 20px;
+    display: block;
+    margin: px auto;
+    padding: 0px 0 10px 0;
+    
     
 }
 
 .dip{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    float: right;
-    width: 2000px;
-    height: 250px;
-    margin: 20px;
+    width: 100%;
+    height: 90%;
+    margin-top:100px;
     padding: 15px;
-    border-radius: 6px;
-     
+    text-align: center;
 }
 
 .dip-item{}
@@ -250,53 +414,288 @@ footer{
 .dip h3{
     font-size: 40px;
     text-align: center;
-    color: white;
+   
 }
 
-.dip p{
+.dip-parent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
     text-align: center;
-    color: white;
 }
 
-.dip button{
-    border-radius: 10px;
-    font-size: 18px;
-    text-align: center;
-    margin: auto;
+/* footer */
+
+footer{
+  
+   padding: 25px;
+  
+}
+
+.row{
     display: block;
-    /* width: 100%; */
-    padding: 10px 20px;
-    border: 0;
-    background-color: #ff0000b3;
-    color: white;
+    
+   
+    
 }
 
-.color4{
-    background-color: rgba(0, 255, 255, 0.589);
 }
 
-.color5{
-    background-color: rgba(153, 205, 50, 0.594);
+
+/* Medium devices (landscape tablets,768px ) */
+@media only screen and (min-width:601px) and (max-width:768px){
+    
+.container{
+    width: 95%;
 }
 
-.color6{
-    background-color: rgba(115, 0, 255, 0.562);
-}
-
-.dip:hover{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(92, 65, 65, 0.23) 0px 10px 10px;
-}
-.service-style{
+.logo{
     width: 100%;
     text-align: center;
-    color: #fff;
-    font-size: 25px;
+   
+} 
+
+nav{
+    width: 100%;
+} 
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    padding: 0px 7px 0px;
+} 
+
+
+/* banner */
+
+.banner h1{
+    font-size: 35px;
+}
+ 
+.banner img{
+    width: 70%;
+    margin: 50px 0 0 0px;
 }
 
 
 
+/* completed project */
+
+.projects{
+    width: 50%;
+   
+}
+
+.projects-left{
+    text-align: right;
+    padding: 0 0px 0 0; 
+
+}
+
+.projects-left h2{
+    font-size: 35px;
+    
+}
+
+.projects-left p{
+    padding: 0 20px ;
+}
+
+
+.projects-right h2{
+    font-size: 25px;
+    text-align: left;
+}
 
 
 
+/* blogs section start */
 
+.blog-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:20px;
+    margin: 40px auto;
+    padding: 0px 0 ;
+}
+
+.blog{
+    margin: 0px 0px 0px 8px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Extra section */
+.extra-section{
+    display: none;
+}
+.dip-parent{
+    display: block;
+    margin: px auto;
+    padding: 0px 0 10px 0;
+    
+    
+}
+
+.dip {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+.dip-item{}
+
+.dip h3{
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.dip-parent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+  
+   padding: 25px;
+   text-align: center;
+  
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+    
+}
+}   
+/* medium decices (landscape tablets,768px and ) */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    
+    .container{
+        width: 90% ;
+        margin: auto;
+    }
+    
+    .logo{
+        width: 30%;
+    }
+    
+    nav{
+        width: 70%;
+    }
+    
+    
+    /* banner */
+    
+    .banner h1{
+        font-size: 45px;
+    }
+     
+    .banner img{
+        width: 80%;
+        margin: 50px 0 0 0px;
+    }
+    
+    
+    
+    /* completed project */
+    
+    .projects{
+        width: 50%;
+       
+    }
+    
+    .projects-left{
+        text-align: right;
+        padding: 0 0px 0 0; 
+    
+    }
+    
+    .projects-left h2{
+        font-size: 45px;
+        
+    }
+    
+    .projects-left p{
+        padding: 0 20px ;
+    }
+    
+    
+    .projects-right h2{
+        font-size: 45px;
+        text-align: left;
+    }
+    
+    
+    
+    /* blogs section start */
+    
+    .blog-parent{
+        display: flex;
+        /* margin:40px auto */
+        padding: 20px 0;
+    }
+    
+    /* Extra section */
+    .extra-section{
+        display: none;
+    }
+    .dip-parent{
+        display: block;
+        margin: px auto;
+        padding: 0px 0 10px 0;
+        
+        
+    }
+    
+    .dip{
+        width: 100%;
+        height: 90%;
+        margin-top:100px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .dip-item{}
+    
+    .dip h3{
+        font-size: 40px;
+        text-align: center;
+       
+    }
+    
+    .dip-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+/* Large devices (large laptops/large desktops,992px) */
+   
+@media only screen and (min-width:993px) and (max-width:1024px){
+  .container{
+    width: 90%;
+  }  
+  /* extra section */
+  .extra-section{
+    display: none;
+  }
+}
 
